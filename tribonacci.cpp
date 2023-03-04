@@ -52,15 +52,15 @@ std::vector<long long> tribonacci(long long n)
 			return trib;
 			break;
 		case 2:
-			trib = { 0, 1 };
+			trib = { 0, 0 };
 			return trib;
 			break;
 		case 3:
-			trib = { 0, 1, 1 };
+			trib = { 0, 0, 1 };
 			return trib;
 			break;
 		default:
-			trib = { 0, 1, 1 };
+			trib = { 0, 0, 1 };
 			break;
 	}
 
